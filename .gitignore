@@ -1,0 +1,48 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/front/dist
+/front/tmp
+/front/out-tsc
+# Only exists if Bazel was run
+/front/bazel-out
+
+# dependencies
+/front/node_modules
+
+# profiling files
+/front/chrome-profiler-events*.json
+
+# IDEs and editors
+/front/.idea
+/front/.project
+/front/.classpath
+/front/.c9/
+/front/*.launch
+/front/.settings/
+/front/*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# misc
+/front/.sass-cache
+/front/connect.lock
+/front/coverage
+/front/libpeerconnection.log
+/front/npm-debug.log
+/front/yarn-error.log
+/front/testem.log
+/front/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+
+
+/back/node_modules

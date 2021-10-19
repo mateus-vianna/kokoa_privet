@@ -1,2 +1,1 @@
-module.exports.todoModel = { 
-}
+module.exports.todoModel = {}
